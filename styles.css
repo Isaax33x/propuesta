@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to bottom right, #ff69b4, #8a2be2);
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    background: #fff;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    transition: transform 0.3s ease;
+}
+
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.yes {
+    background: #4CAF50;
+    color: white;
+}
+
+.no {
+    background: #f44336;
+    color: white;
+}
+
+#message {
+    margin: 20px 0;
+}
+
+/* Efecto brilloso para el botón Sí */
+.yes.brilliant-1 {
+    box-shadow: 0 0 15px rgba(255, 255, 0, 0.5);
+}
+
+.yes.brilliant-2 {
+    box-shadow: 0 0 20px rgba(255, 255, 0, 0.7);
+}
+
+.yes.brilliant-3 {
+    box-shadow: 0 0 25px rgba(255, 255, 0, 1);
+}
